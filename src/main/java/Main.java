@@ -231,8 +231,14 @@ public class Main extends Application {
 
     private void readConfig() {
         try {
-            URI res = getClass().getProtectionDomain().getCodeSource().getLocation().toURI();
-            File configFile = new File(new File(res).getParentFile(), "app.config");
+            String fileName = "app.config";
+
+            ClassLoader classLoader = getClass().getClassLoader();
+            File configFile = new File(classLoader.getResource(fileName).getFile());
+            if (!configFile.exists()) {
+                URI res = getClass().getProtectionDomain().getCodeSource().getLocation().toURI();
+                configFile = new File(new File(res).getParentFile(), "app.config");
+            }
 
             InputStream is = new FileInputStream(configFile);
 
