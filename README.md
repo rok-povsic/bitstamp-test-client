@@ -15,4 +15,4 @@
 
 Required: JRE 8
 
-The project was build using IntelliJ IDEA.
+The project was built using IntelliJ IDEA.
