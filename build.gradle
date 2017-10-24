@@ -1,0 +1,18 @@
+group 'bitstamp-test-client'
+version '0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.pusher:pusher-java-client:1.5.0'
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

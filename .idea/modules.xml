@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bitstamp-test-client.iml" filepath="$PROJECT_DIR$/.idea/modules/bitstamp-test-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bitstamp-test-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bitstamp-test-client_main.iml" group="bitstamp-test-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bitstamp-test-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bitstamp-test-client_test.iml" group="bitstamp-test-client" />
+    </modules>
+  </component>
+</project>
